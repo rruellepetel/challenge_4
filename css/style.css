@@ -1,4 +1,5 @@
 body {
+
 }
 
 header {
@@ -23,13 +24,11 @@ h1, h2, h3, h4{
 p {
     text-align: center;
     font-family: 'Questrial'
-
 }
 
 nav {
 
 }
-
 
 ul {
     list-style: none;
@@ -54,9 +53,11 @@ button {
     width: 150px;
     height: 50px;
 }
+
 #contact {
     background-color: #e3f0f7;
 }
+
 footer {
     display: flex;
     flex-direction: column;
@@ -65,8 +66,19 @@ footer {
 
 }
 
-footer i {
-    width: 50px;
-    height: 50px;
+#socialnav {
+    display: flex;
+    padding-left: 4px;
+}
+
+#socialnav li {
+    display: flex;
+    justify-content: center;
+}
+
+#socialnav a {
     background-color: #64abd1;
+    color: white;
+    padding: 10px;
+    margin: 0.2em;
 }
