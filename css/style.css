@@ -1,5 +1,18 @@
-body {
+/*Mobile version*/
 
+h1, h2, h3, h4{
+    text-align: center;
+    font-family: 'Questrial';
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    font-family: 'Questrial'
+}
+
+ul {
+    list-style: none;
 }
 
 header {
@@ -10,28 +23,23 @@ header {
     color: #ffffff;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
-h1, h2, h3, h4{
-    text-align: center;
-    font-family: 'Questrial'
-    font-weight: bold;
-}
-
-p {
-    text-align: center;
-    font-family: 'Questrial'
-}
-
-nav {
+header i {
+    padding-top: 2em;
 
 }
 
-ul {
-    list-style: none;
+h1 {
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+#menu li {
+    margin: 0.7em;
 }
 
 main {
@@ -40,7 +48,29 @@ main {
     align-items: center;
 }
 
-article {
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main section {
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+main section:nth-child(2){
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+ main section:nth-child(3) {
+     padding-top: 0.3em;
+ }
+main section:nth-child(1), main section:nth-child(2) {
+    border-bottom: 1px solid #cfcfcf;
+}
+
+
+main article {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,9 +86,11 @@ button {
 
 #contact {
     background-color: #e3f0f7;
+    width: 100%;
 }
 
 footer {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,3 +114,7 @@ footer {
     padding: 10px;
     margin: 0.2em;
 }
+
+/*Tablet version*/
+
+@media min-width:
