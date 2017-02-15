@@ -121,7 +121,10 @@ footer {
         width: 30%;
     }
 
-    #contact {
-    
+    .infos {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        width: 30%;
 
     }
