@@ -83,6 +83,10 @@ button {
     width: 100%;
 }
 
+.infos {
+
+}
+
 footer {
     width: 100%;
     display: flex;
@@ -118,7 +122,7 @@ footer {
     }
 
     section article {
-        width: 30%;
+        width: 20%;
     }
 
     #contact article {
@@ -141,10 +145,34 @@ footer {
 /*Desktop version*/
 
 @media (min-width: 1200px) {
+    }
 
+    header i {
+        padding-top: 0.7em;
+    }
+    h1 {
+        font-size: 56px;
+
+    }
     #menu {
         display: flex;
         flex-direction: row;
+        font-size: 26px;
     }
 
-}
+    section:nth-child(1){
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4, p {
+        font-size: 16px;
+    }
