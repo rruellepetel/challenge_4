@@ -121,10 +121,17 @@ footer {
         width: 30%;
     }
 
+    #contact article {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .infos {
         text-align: center;
         display: flex;
         flex-direction: row;
-        width: 30%;
-
+        padding: 3em;
+        margin: 1em;
     }
