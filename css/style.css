@@ -49,6 +49,8 @@ main img {
 main section {
     padding-top: 1em;
     margin-top: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 main section:nth-child(2){
@@ -76,15 +78,18 @@ button {
     border-radius: 0;
     width: 150px;
     height: 50px;
+    margin-top: auto;
 }
 
 #contact {
     background-color: #e3f0f7;
     width: 100%;
+    justify-content: space-around;
 }
 
 .infos {
-
+    text-align: center;
+    flex-shrink: 0;
 }
 
 footer {
@@ -112,24 +117,35 @@ footer {
     margin: 0.2em;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 /*Tablet version*/
 
 @media (min-width: 900px) {
 
     main section {
         display: flex;
+        flex-direction: row;
         justify-content: space-around;
+
     }
 
     section article {
         width: 20%;
     }
 
+    section article:nth-child(2) {
+
+    }
+
     #contact article {
         display: flex;
         width: 100%;
         flex-direction:row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: flex-start;
     }
 
@@ -137,11 +153,11 @@ footer {
         text-align: center;
         display: flex;
         flex-direction: column;
-        padding: 3em;
-        margin: 1em;
+        padding: 3em 0;
+        margin: 1em 0;
     }
 
-
+}
 /*Desktop version*/
 
 @media (min-width: 1200px) {
@@ -158,6 +174,14 @@ footer {
         display: flex;
         flex-direction: row;
         font-size: 26px;
+    }
+
+    li a:hover {
+        background-color: white;
+        border: 1px solid white;
+
+        border-radius: 15px;
+        color: #2056ac;
     }
 
     section:nth-child(1){
