@@ -24,14 +24,6 @@ header {
     height: 320px;
 }
 
-header i {
-
-
-}
-
-h1 {
-}
-
 #menu {
     display: flex;
     flex-direction: column;
@@ -119,6 +111,17 @@ footer {
 /*Tablet version*/
 
 @media (min-width: 900px) {
+    header {
+        height: 250px;
+    }
+
+    header i {
+        padding-top: 0.7em;
+    }
+
+    #menu {
+        flex-direction: row;
+    }
     main section {
         display: flex;
         justify-content: space-around;
@@ -128,6 +131,7 @@ footer {
         width: 30%;
     }
 
-    #contact {
-        
+    .infos {
+        flex-direction: row;
+        align-items: stretch;
     }
