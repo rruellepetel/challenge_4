@@ -124,14 +124,27 @@ footer {
     #contact article {
         display: flex;
         width: 100%;
-        flex-direction: row;
+        flex-direction:row;
         justify-content: center;
+        align-items: flex-start;
     }
 
     .infos {
         text-align: center;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         padding: 3em;
         margin: 1em;
     }
+
+
+/*Desktop version*/
+
+@media (min-width: 1200px) {
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
