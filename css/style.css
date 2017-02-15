@@ -21,10 +21,11 @@ header {
     align-items: center;
     background-color: #2056ac;
     color: #ffffff;
+    height: 320px;
 }
 
 header i {
-    padding-top: 2em;
+
 
 }
 
@@ -35,11 +36,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1em;
+    padding: 0.9em;
 }
 
 #menu li {
-    margin: 0.7em;
+    margin: 0.6em;
 }
 
 main {
@@ -117,4 +118,16 @@ footer {
 
 /*Tablet version*/
 
-@media min-width:
+@media (min-width: 900px) {
+    main section {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section article {
+        width: 30%;
+    }
+
+    #contact {
+        
+    }
