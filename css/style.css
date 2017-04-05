@@ -1,3 +1,7 @@
+.grid {
+    display: grid;
+}
+
 /*Mobile version*/
 
 h1, h2, h3, h4{
@@ -161,8 +165,6 @@ a {
 /*Desktop version*/
 
 @media (min-width: 1200px) {
-    }
-
     header i {
         padding-top: 0.7em;
     }
@@ -199,3 +201,9 @@ a {
     h4, p {
         font-size: 16px;
     }
+}
+
+
+@@supports (display: grid) {
+
+}
