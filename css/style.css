@@ -161,8 +161,6 @@ a {
 /*Desktop version*/
 
 @media (min-width: 1200px) {
-    }
-
     header i {
         padding-top: 0.7em;
     }
@@ -198,4 +196,10 @@ a {
 
     h4, p {
         font-size: 16px;
+    }
+    }
+
+
+    @supports (display : grid) {
+
     }
